@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Entornos
+.env
+venv/
+.venv/
+
+# MLflow
+mlruns/
+
+# Modelos (versionados con DVC)
+models/*.pkl
+
+# Datos (versionados con DVC)
+data/raw/*.csv
+
+# Sistema
+.DS_Store
+*.log

@@ -1,0 +1,10 @@
+artifact_location: file:///home/mauricio/Escritorio/mlops_challenge/mlruns/106119474353101735/models/m-644de3e1e40d48d0b6e7e02271aa76db/artifacts
+creation_timestamp: 1777924499486
+experiment_id: '106119474353101735'
+last_updated_timestamp: 1777924500945
+model_id: m-644de3e1e40d48d0b6e7e02271aa76db
+model_type: null
+name: model
+source_run_id: 6c42e9e0172f4a1b864ad4c2cecc6db5
+status: 2
+status_message: null

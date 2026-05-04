@@ -5,7 +5,7 @@ import mlflow.sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Ridge
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import pickle
 import os
@@ -21,15 +21,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Modelos a probar
 experiments = [
-    (Ridge(alpha=0.01), "Ridge_0.01", {"alpha": 0.01}),
     (Ridge(alpha=0.1), "Ridge_0.1", {"alpha": 0.1}),
     (Ridge(alpha=1.0), "Ridge_1.0", {"alpha": 1.0}),
-    (RandomForestRegressor(n_estimators=50, max_depth=5, random_state=42), "RF_50_5", {"n_estimators": 50, "max_depth": 5}),
-    (RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42), "RF_100_10", {"n_estimators": 100, "max_depth": 10}),
-    (RandomForestRegressor(n_estimators=150, max_depth=15, random_state=42), "RF_150_15", {"n_estimators": 150, "max_depth": 15}),
-    (GradientBoostingRegressor(n_estimators=50, max_depth=3, random_state=42), "GB_50_3", {"n_estimators": 50, "max_depth": 3}),
     (GradientBoostingRegressor(n_estimators=100, max_depth=5, random_state=42), "GB_100_5", {"n_estimators": 100, "max_depth": 5}),
-    (GradientBoostingRegressor(n_estimators=100, max_depth=5, learning_rate=0.05, random_state=42), "GB_100_5_lr05", {"n_estimators": 100, "max_depth": 5, "learning_rate": 0.05}),
 ]
 
 best_model, best_scaler, best_r2, best_name = None, None, -999, ""

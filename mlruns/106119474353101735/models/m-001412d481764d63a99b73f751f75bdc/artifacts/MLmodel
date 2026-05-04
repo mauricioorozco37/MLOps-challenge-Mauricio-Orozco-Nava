@@ -1,0 +1,23 @@
+artifact_path: file:///home/mauricio/Escritorio/mlops_challenge/mlruns/106119474353101735/models/m-001412d481764d63a99b73f751f75bdc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-001412d481764d63a99b73f751f75bdc
+model_size_bytes: 504
+model_uuid: m-001412d481764d63a99b73f751f75bdc
+prompts: null
+run_id: d1f4490ddf8544a59b60b8f180f5823f
+utc_time_created: '2026-05-04 19:54:51.792292'
