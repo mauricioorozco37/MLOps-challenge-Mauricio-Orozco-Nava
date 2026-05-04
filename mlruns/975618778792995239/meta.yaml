@@ -1,0 +1,7 @@
+artifact_location: file:///home/mauricio/Escritorio/mlops_challenge/mlruns/975618778792995239
+creation_time: 1777923557884
+experiment_id: '975618778792995239'
+last_update_time: 1777923557884
+lifecycle_stage: active
+name: california-housing-prediction
+workspace: default

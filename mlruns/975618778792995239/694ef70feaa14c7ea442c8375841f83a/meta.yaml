@@ -1,0 +1,14 @@
+artifact_uri: file:///home/mauricio/Escritorio/mlops_challenge/mlruns/975618778792995239/694ef70feaa14c7ea442c8375841f83a/artifacts
+end_time: 1777923587838
+entry_point_name: ''
+experiment_id: '975618778792995239'
+lifecycle_stage: active
+run_id: 694ef70feaa14c7ea442c8375841f83a
+run_name: GB_100_5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777923586676
+status: 3
+tags: []
+user_id: mauricio
