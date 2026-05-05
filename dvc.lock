@@ -1,0 +1,25 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/load_data.py
+    deps:
+    - path: src/load_data.py
+      hash: md5
+      md5: 293e7929e1576d39a39087492bcaf693
+      size: 303
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/raw/california_housing.csv
+      hash: md5
+      md5: ca5b757f0729c68d74d05bf9d9ca8486
+      size: 1895154
+    - path: src/train.py
+      hash: md5
+      md5: 8992993ae5c77c8c58052f3b81a3c482
+      size: 2113
+    outs:
+    - path: models/best_model.pkl
+      hash: md5
+      md5: 3a0d08f26e4d33663f60434581f67592
+      size: 457224
