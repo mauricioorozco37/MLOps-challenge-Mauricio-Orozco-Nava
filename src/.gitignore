@@ -1,23 +1,19 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.ipynb_checkpoints/
-
-# Entornos
-.env
+# Entornos virtuales
 venv/
-.venv/
+.mlops/
 
-# MLflow
-mlruns/
+# Cachés de Python
+__pycache__/
+*.py[cod]
 
-# Modelos (versionados con DVC)
+# Datos y Modelos (serán gestionados por DVC)
 models/*.pkl
+models/*.joblib
 
-# Datos (versionados con DVC)
-data/raw/*.csv
+# MLflow local
+mlruns/
+mlartifacts/
 
-# Sistema
-.DS_Store
-*.log
+# Secretos
+.env
+/model.pkl

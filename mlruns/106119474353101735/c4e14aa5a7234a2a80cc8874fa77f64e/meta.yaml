@@ -1,0 +1,14 @@
+artifact_uri: file:///home/mauricio/Escritorio/mlops_challenge/mlruns/106119474353101735/c4e14aa5a7234a2a80cc8874fa77f64e/artifacts
+end_time: 1778010504640
+entry_point_name: ''
+experiment_id: '106119474353101735'
+lifecycle_stage: active
+run_id: c4e14aa5a7234a2a80cc8874fa77f64e
+run_name: Ridge_1.0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778010503601
+status: 3
+tags: []
+user_id: mauricio

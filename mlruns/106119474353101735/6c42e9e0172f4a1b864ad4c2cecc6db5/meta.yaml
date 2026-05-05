@@ -1,8 +1,9 @@
 artifact_uri: file:///home/mauricio/Escritorio/mlops_challenge/mlruns/106119474353101735/6c42e9e0172f4a1b864ad4c2cecc6db5/artifacts
+deleted_time: 1778005014396
 end_time: 1777924500945
 entry_point_name: ''
 experiment_id: '106119474353101735'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6c42e9e0172f4a1b864ad4c2cecc6db5
 run_name: GB_100_5
 source_name: ''

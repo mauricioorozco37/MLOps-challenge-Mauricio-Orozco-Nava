@@ -26,7 +26,7 @@ experiments = [
     (GradientBoostingRegressor(n_estimators=100, max_depth=5, random_state=42), "GB_100_5", {"n_estimators": 100, "max_depth": 5}),
 ]
 
-best_model, best_scaler, best_r2, best_name = None, None, -999, ""
+best_model, best_scaler, best_r2, best_name = None, None, -999, ""+
 
 for model, name, params in experiments:
     scaler = StandardScaler()

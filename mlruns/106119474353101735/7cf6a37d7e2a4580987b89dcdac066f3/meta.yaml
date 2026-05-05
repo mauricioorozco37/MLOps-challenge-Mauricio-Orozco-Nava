@@ -1,8 +1,9 @@
 artifact_uri: file:///home/mauricio/Escritorio/mlops_challenge/mlruns/106119474353101735/7cf6a37d7e2a4580987b89dcdac066f3/artifacts
+deleted_time: 1778005014420
 end_time: 1777924495479
 entry_point_name: ''
 experiment_id: '106119474353101735'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7cf6a37d7e2a4580987b89dcdac066f3
 run_name: Ridge_1.0
 source_name: ''
